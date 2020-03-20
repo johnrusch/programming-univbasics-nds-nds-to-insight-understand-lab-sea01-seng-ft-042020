@@ -19,7 +19,7 @@ def print_first_directors_movie_titles
     element_index = 0
      while element_index <
       movies.length do
-       # binding.pry
+        binding.pry
         #if directors_database[row_index].include?("Spielberg")
           puts movies[:title]
        # end
