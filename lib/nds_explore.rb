@@ -7,7 +7,7 @@ require 'pry'
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   pp directors_database
-  binding.pry
+ # binding.pry
   
 end
 
@@ -19,7 +19,7 @@ def print_first_directors_movie_titles
     element_index = 0
      while element_index <
       movies.length do
-        binding.pry
+       # binding.pry
         #if directors_database[row_index].include?("Spielberg")
           puts movies[element_index][:title]
        # end
