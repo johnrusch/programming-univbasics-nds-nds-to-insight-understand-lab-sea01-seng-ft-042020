@@ -13,16 +13,16 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  movies = directors_database[row_index][:movies]
-  while row_index <
-  directors_database.length do
+  movies = directors_database[0][:movies]
+  #while row_index <
+  #directors_database.length do
     element_index = 0
-      while element_index <
-      directors_database[row_index].length do
-        binding.pry
-        if directors_database[row_index].include?("Spielberg")
-          puts directors_database[row_index][element_index]
-        end
+     while element_index <
+      movies.length do
+       # binding.pry
+        #if directors_database[row_index].include?("Spielberg")
+          puts movies[:title]
+       # end
       element_index += 1 
       end
     row_index += 1
